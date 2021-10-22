@@ -9,10 +9,21 @@
   background-color: yellow;
   border: 1px solid;
   padding: 20px;
+  text-align: center;
 }
 
 .box-nest {
   background-color: orange;
   border: 1px solid;
   min-height: 250px;
+  display: flex;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.cont-flex {
+  display: flex;
 }
