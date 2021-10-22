@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  min-height: 250px;
+  background-color: yellow;
+  border: 1px solid;
+  padding: 20px;
+}
+
+.box-nest {
+  background-color: orange;
+  border: 1px solid;
+  min-height: 250px;
+}
